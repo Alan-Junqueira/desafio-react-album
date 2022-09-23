@@ -40,8 +40,12 @@ const Photo = () => {
     <>
       <C.Button onClick={handleBackButton}>Voltar</C.Button>
       {loading && <div>Loading...</div>}
-      <C.Title>{photo?.title}</C.Title>
-      <img src={photo?.url} alt="" />
+      {!loading && photo && (
+        <>
+          <C.Title>{photo?.title}</C.Title>
+          <img src={photo?.url} alt="" />
+        </>
+      )}
     </>
   );
 };
