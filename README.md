@@ -1,10 +1,13 @@
-#Comandos iniciais:
+# Comandos iniciais:
 
 `npm init vite react-album --template react-ts`\
 `npm install`\
-`npm install axios react-router-dom`\
+`npm install axios react-router-dom`
 
-API:
+# Comando para usar na sua máquina
+`npm run dev`
+
+# API:
 https://jsonplaceholder.typicode.com/albums\
 https://jsonplaceholder.typicode.com/albums/1\
 https://jsonplaceholder.typicode.com/albums/1/photos\
