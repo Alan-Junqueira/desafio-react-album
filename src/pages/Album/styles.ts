@@ -33,4 +33,8 @@ export const PhotoAnchor = styled.a`
   border: 2px solid rgba(0, 0, 0, 0.7);
 
   margin-bottom: 20px;
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
 `;
